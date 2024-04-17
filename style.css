@@ -41,7 +41,7 @@
   }
   
   header {
-    background-image: url("src/Background.jpg");
+    background-image: url("https://cdnsnapptrip.com/images/market//Uploads/snapptrip-ads/images/Landing403/Background.jpg");
     height: 83vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -397,9 +397,19 @@ font-size: 31px;
 line-height: 52.7px;
 letter-spacing: -0.06em;
   }
-  
-  /* second table*/
 
+  @media (max-width: 768px) {
+    .center-button {
+      display: flex;
+      justify-content: center;
+  }
+  .btn-primary1 {
+    width: 165px;
+    height: 53px;
+    font-size: 22px;
+  }
+  }
+ 
   @media (min-width: 768px) {
     .right-content {
        margin-bottom: 30px;

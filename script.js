@@ -32,3 +32,13 @@ data.map(item => {
     container.appendChild(row);
 });
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    var currentURL = window.location.href;
+
+    if (currentURL.startsWith("https://pwa.snapptrip.com")) {
+        document.querySelector(".link").setAttribute("href", "https://pwa.snapptrip.com/bus?utm_source=jek&utm_medium=landing&utm_campaign=lucky-bus&utm_term=april-2024");
+    } else {
+        document.querySelector(".link").setAttribute("href", "https://www.snapptrip.com/bus?utm_source=web&utm_medium=landing&utm_campaign=lucky-bus&utm_term=april-2024");
+    }
+});
