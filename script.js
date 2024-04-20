@@ -10,14 +10,7 @@ let data = [
   { date: "۱۴۰۳/۰۲/۰۱", client: "فریبا زارع", number: "۲۷۹۵***۰۹۱۳" },
   { date: "۱۴۰۳/۰۲/۰۱", client: "فریبا زارع", number: "۲۷۹۵***۰۹۱۳" },
 ];
-///
-fetch("https://your-cdn.com/path/to/your/file.json")
-  .then((response) => response.json())
-  .then((json) => {
-    let data = json.data;
-    // ... rest of your code ...
-  });
-//
+
 let container = document.querySelector(".name");
 
 data.map((item, index) => {
