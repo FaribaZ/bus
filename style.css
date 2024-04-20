@@ -1,132 +1,132 @@
 @font-face {
-    font-family: "snap regular";
-    src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Regular.eot");
-    src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Regular.eot?#iefix")
-        format("embedded-opentype"),
-      url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Regular.woff2")
-        format("woff2");
-    font-weight: normal;
-  }
-  @font-face {
-    font-family: "snap-black";
-    src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Bold.eot");
-    src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Bold.eot?#iefix")
-        format("embedded-opentype"),
-      url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Bold.woff2")
-        format("woff2");
-    font-weight: 700;
-  }
-  @font-face {
-    font-family: "snap-bold";
-    src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-ExtraBold.eot");
-    src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-ExtraBold?#iefix")
-        format("embedded-opentype"),
-      url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-ExtraBold.woff2")
-        format("woff2");
-    font-weight: 800;
-  }
-  @font-face {
-    font-family: "snap-extra-bold";
-    src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Black.eot");
-    src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Black?#iefix")
-        format("embedded-opentype"),
-      url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Black.woff2")
-        format("woff2");
-    font-weight: 900;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-image: url("https://cdnsnapptrip.com/images/market//Uploads/snapptrip-ads/images/Landing403/Background.jpg");
-    height: 83vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 100%;
-    height: 577px;
-  }
-  .left-content >img{
-    width: 576px;
+  font-family: "snap regular";
+  src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Regular.eot");
+  src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Regular.woff2")
+      format("woff2");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "snap-black";
+  src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Bold.eot");
+  src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Bold.woff2")
+      format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "snap-bold";
+  src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-ExtraBold.eot");
+  src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-ExtraBold?#iefix")
+      format("embedded-opentype"),
+    url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-ExtraBold.woff2")
+      format("woff2");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "snap-extra-bold";
+  src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Black.eot");
+  src: url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Black?#iefix")
+      format("embedded-opentype"),
+    url("https://cdnsnapptrip.com/images/market/Uploads/marketing-landings/powerbox/assets/fonts/Snapp1.9-Black.woff2")
+      format("woff2");
+  font-weight: 900;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("https://cdnsnapptrip.com/images/market//Uploads/snapptrip-ads/images/Landing403/Background.jpg");
+  height: 83vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 577px;
+}
+.left-content > img {
+  width: 576px;
   height: 576px;
   flex-shrink: 0;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .left-content > img {
+    width: 340px;
+    height: 327px;
   }
-  @media (max-width: 767px) {
-    .left-content > img{
-    width: 365px;
-    height: 345px;
-     flex-shrink: 0;
-      }
-      .left-content {
+  .left-content {
+    text-align: center;
+  }
+  header {
+    height: 690px;
+    flex-shrink: 0;
+    padding-top: 30px;
+  }
+}
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.first-text {
+  color: #474747;
   text-align: center;
-      }
-      header{
-  height: 690px;
-  flex-shrink: 0;
-  padding-top: 30px;
-      }
-  }
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  
+  font-family: snap regular;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
   .first-text {
-    color: #474747;
+    color: #000;
     text-align: center;
     font-family: snap regular;
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 34px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    line-height: normal;
+    flex-shrink: 0;
+    padding-top: 10px;
+    letter-spacing: -0.4px;
   }
+}
 
-  @media (max-width: 767px) {
-    .first-text{
-        color: #000;
-        text-align: center;
-        font-family: snap regular;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-  flex-shrink: 0;
-  padding-top: 10px;
-  letter-spacing: -0.4px;
-    }
-  
-  }
-  
-  .container-main {
-    margin: auto;
-  }
-    button {
-        border: #fe3030;
-      }
-    .takhfif-text {
-        color: #fe3030;
-        text-align: center;
-        font-family: snap-extra-bold;
-        font-size: 24px;
-font-weight: 900;
-line-height: 21.7px;
-letter-spacing: -0.02em;
-text-align: center;
-        margin-top: 35px;
-      }
-      @media (max-width: 767px) {
-          .takhfif-text{
+.container-main {
+  margin: auto;
+}
+button {
+  border: #fe3030;
+}
+.takhfif-text {
+  color: #fe3030;
+  text-align: center;
+  font-family: snap-extra-bold;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 21.7px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-top: 35px;
+}
+@media (max-width: 767px) {
+  .takhfif-text {
     font-size: 14px;
     text-align: center;
-          }
-      }
-  .main-span {
+  }
+}
+.main-span {
   height: 80px;
   flex-shrink: 0;
   color: #000;
@@ -137,109 +137,114 @@ text-align: center;
   font-weight: 400;
   line-height: normal;
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 57px;
-  }
-  .right-title2{
-    color: #FFF;
-    text-align: right;
-    font-family: snap-black;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.408px;
-  
-  }
-  @media (max-width: 767px) {
-    .main-span {
-        height: 172px;
-        flex-shrink: 0;
-        color: #000;
-  text-align: center;
-  font-family: Snapp 1.9;
-  font-size: 14px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 57px;
+}
+.right-title2 {
+  color: #fff;
+  text-align: right;
+  font-family: snap-black;
+  font-size: 25px;
   font-weight: 400;
-    }
-    .right-title2{
-        text-align: center;    
-      }
+  line-height: normal;
+  letter-spacing: -0.408px;
+}
+@media (max-width: 767px) {
+  .main-span {
+    height: 172px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Snapp 1.9;
+    font-size: 14px;
+    font-weight: 400;
   }
-  
-  .right-title {
-    padding-top: 80px;
+  .right-title2 {
+    text-align: center;
   }
-  .right-title > div {
+}
+
+.right-title {
+  padding-top: 80px;
+}
+.right-title > div {
   height: 100px;
   width: 630px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   text-align: right;
   font-family: Snap-bold;
   font-size: 64px;
   font-style: normal;
   line-height: normal;
   /* padding-right: 3px; */
+}
+
+@media (max-width: 767px) {
+  .text-box {
+    top: 50%;
+    left: 50%;
   }
-  
-  @media (max-width: 767px) {
-    .text-box {
-      top: 50%;
-      left: 50%;
-    }
-    .right-title > div {
-      width: 370px;
-      height: 60px;
-      font-size: 29px;
-      padding-top: 1px;
-  text-align: center;
-    }
-    .right-title {
-      padding-top: 1px;
-      display: flex;
-  justify-content: center;
-  flex-shrink: 0;
-    }
-  }
-  
-  .right {
-    margin: 5px 0;
+  .right-title > div {
+    width: 359px;
+    height: 60px;
+    font-size: 29px;
+    padding-top: 1px;
     text-align: center;
   }
-  /*Banner*/
-  .banner{
-    width: 1083px;
+  .right-title {
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+
+.right {
+  margin: 5px 0;
+  text-align: center;
+}
+/*Banner*/
+.banner {
+  width: 1083px;
   height: 279px;
   margin: 57px;
   flex-shrink: 0;
   border-radius: 20px;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.61) 0.1%, rgba(0, 0, 0, 0.45) 30.28%, rgba(0, 0, 0, 0.25) 54.61%, rgba(0, 0, 0, 0.00) 77.94%);
-  }
-  .banner-h3{
-    color: #190d43;
-    text-align: justify;
-    font-family: snap-extra-bold;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-  }
-  .banner-ul{
-    color: #4a0808;
-    text-align: justify;
-    font-family: Snap regular;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  .card-title-first{
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.61) 0.1%,
+    rgba(0, 0, 0, 0.45) 30.28%,
+    rgba(0, 0, 0, 0.25) 54.61%,
+    rgba(0, 0, 0, 0) 77.94%
+  );
+}
+.banner-h3 {
+  color: #190d43;
+  text-align: justify;
+  font-family: snap-extra-bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.banner-ul {
+  color: #4a0808;
+  text-align: justify;
+  font-family: Snap regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-title-first {
   height: 46px;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   text-align: right;
   font-family: Snap-bold;
   font-size: 16px;
@@ -247,19 +252,19 @@ text-align: center;
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.16px;
-  }
-  .card-text-first > ul{
-    color: #FFF;
+}
+.card-text-first > ul {
+  color: #fff;
   text-align: justify;
   font-family: Snap regular;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  }
+}
 
-  .card-text-first >ul{
-  color: #FFF;
+.card-text-first > ul {
+  color: #fff;
   text-align: right;
   font-family: Snap regular;
   font-size: 15px;
@@ -268,82 +273,82 @@ text-align: center;
   line-height: normal;
   letter-spacing: -0.16px;
   padding-right: 25px;
-  }
-  .first-card {
-    height: 449px;
-    background-color: #fe3030;
-    display: flex;
-    flex-direction: row;
-  }
-  .card-img {
-    width: 430px;
-    height: 410px;
 }
-.name-header{
-font-family: snap-bold;
-font-size: 18px;
-line-height: 27.9px;
-text-align: center;
+.first-card {
+  height: 449px;
+  background-color: #fe3030;
+  display: flex;
+  flex-direction: row;
 }
-.name-title{
+.card-img {
+  width: 430px;
+  height: 410px;
+}
+.name-header {
+  font-family: snap-bold;
+  font-size: 18px;
+  line-height: 27.9px;
+  text-align: center;
+}
+.name-title {
   font-family: snap-extra-bold;
-font-size: 32px;
-line-height: 49.6px;
-text-align: center;
-border-bottom: 4px solid #fff;
-margin-top: 20px;
-margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 49.6px;
+  text-align: center;
+  border-bottom: 4px solid #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-@media (max-width: 768px) {
 
-.name-title{
-font-size: 18px;
-}
-.name-header{
-font-size: 14px;
+@media (max-width: 768px) {
+  .name-title {
+    font-size: 18px;
   }
-  .name-detail{
+  .name-header {
+    font-size: 14px;
+  }
+  .name-detail {
     font: 12px;
   }
- }
+}
 .main-header {
   position: sticky;
   top: 0;
   background-color: #fe3030;
-  z-index: 10000; /* Ensure the header is above other elements */
+  z-index: 100000;
 }
-.name-detail{
-font-family: snap regular;
-font-size: 17px;
-line-height: 27.9px;
-text-align: center;
-margin: 20px;
+.name-detail {
+  font-family: snap regular;
+  font-size: 17px;
+  line-height: 27.9px;
+  text-align: center;
+  margin: 20px;
 }
 @media (max-width: 768px) {
-    .name-detail{
-      font-size: 12px;
-    }
-   }
-.date .client .number{
-font-family: Snapp-regular;
-font-size: 18px;
-font-weight: 400;
-line-height: 27.9px;
-text-align: right;
-
+  .name-detail {
+    font-size: 12px;
+  }
+}
+.date .client .number {
+  font-family: Snapp-regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.9px;
+  text-align: right;
 }
 /* Mobile version */
 @media (max-width: 768px) {
-  .first-card .col-4, .first-card .col-8 {
-      flex: 0 0 100%;
-      max-width: 100%;
+  .first-card .col-4,
+  .first-card .col-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
   .first-card .col-4 {
-      order: 2;
+    order: 2;
   }
 
   .first-card .col-8 {
-      order: 1;
+    order: 1;
   }
 }
 .first-card .col-4 {
@@ -353,152 +358,155 @@ text-align: right;
 }
 /* Mobile version */
 @media (max-width: 768px) {
-    .card-img {
-        width: 390px;
-        height: 382px;
-        align-items: center;
-    }
+  .card-img {
+    width: 351px;
+    height: 343.8px;
+    align-items: center;
+  }
 
-    .first-card {
-        flex-direction: column-reverse;
-        position: relative;
-        height: 804px; /* Updated height */
-        margin-bottom: 20px;
-    }
+  .first-card {
+    flex-direction: column-reverse;
+    position: relative;
+    height: 804px;
+    margin-bottom: 20px;
+  }
 }
 .name {
   height: 330px;
-  overflow-y: auto; 
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  background-color: #fe3030;
+  z-index: 1;
 }
 
-  @media (min-width: 768px) {
-    .first-card {
-        display: block;
-    }
-    .btn-2{
-      display: none;
-    }
-
+@media (min-width: 768px) {
+  .first-card {
+    display: block;
   }
- 
-  /*Button*/
-  .btn-primary1 {
-    width: 209px;
-    height: 70px;
-    flex-shrink: 0;
-    border-radius: 40px;
- color: #FF4147;
- background-color: #FFF;
+  .btn-2 {
+    display: none;
+  }
+}
+
+/*Button*/
+.btn-primary1 {
+  width: 209px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  color: #ff4147;
+  background-color: #fff;
   text-align: center;
   font-family: Snap-bold;
   letter-spacing: -1.44px;
   margin-top: 20px;
-font-size: 31px;
-line-height: 52.7px;
-letter-spacing: -0.06em;
-  }
+  font-size: 31px;
+  line-height: 52.7px;
+  letter-spacing: -0.06em;
+}
 
-  @media (max-width: 768px) {
-    .center-button {
-      display: flex;
-      justify-content: center;
+@media (max-width: 768px) {
+  .center-button {
+    display: flex;
+    justify-content: center;
   }
   .btn-primary1 {
     width: 165px;
     height: 53px;
     font-size: 22px;
   }
-  }
- 
-  @media (min-width: 768px) {
-    .right-content {
-       margin-bottom: 30px;
-    }
-  }
+}
 
-  .collection{
-    border-radius: 20px;
-  background-color: #100E29;
+@media (min-width: 768px) {
+  .right-content {
+    margin-bottom: 30px;
+  }
+}
+
+.collection {
+  border-radius: 20px;
+  background-color: #100e29;
   box-shadow: 4px 4px 23px 0px rgba(0, 0, 0, 0.25);
   width: 1083px;
   height: 399px;
   flex-shrink: 0;
-  }
-  /* footer*/
-  .footer-wrapper {
-    background-color: #f2f3f5;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    gap: 0;
-    margin: auto;
-  }
+}
+/* footer*/
+.footer-wrapper {
+  background-color: #f2f3f5;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  gap: 0;
+  margin: auto;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+@media (max-width: 768px) {
   .footer-container {
     display: flex;
-    flex-direction: row;
-    gap: 32px;
-  }
-  @media (max-width: 768px) {
-    .footer-container {
-      display: flex;
-      flex-direction: column;
-      gap: 32px;
-      margin: auto;
-      text-align: center;
-    }
-  }
-  @media (min-width: 1200px) {
-    .footer-container {
-      max-width: 1121px;
-      margin: auto;
-    }
-  }
-  .footer-contact {
-    display: flex;
     flex-direction: column;
-    gap: 8px;
-    color: #24293c;
-    letter-spacing: 0.005px;
-    font-size: 18px;
-    line-height: 24px;
+    gap: 32px;
+    margin: auto;
+    text-align: center;
   }
-  .footer-contact-title {
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.0015px;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-    color: #24293c;
+}
+@media (min-width: 1200px) {
+  .footer-container {
+    max-width: 1121px;
+    margin: auto;
   }
-  .contact-title {
-    font-size: 14px;
-    line-height: 24px;
-    font-family: snap-bold;
-  }
-  .code {
-    margin: 15px;
-  }
-  
-  .icon {
-    height: 100%;
-    width: 100%;
-  }
-  .social {
-    display: flex;
-    gap: 1.5rem;
-    place-content: center;
-  }
-  /* .footer-social {
-    justify-content: right;
-  } */
-  .footer-social-content {
-    margin-bottom: 2rem;
-    letter-spacing: 0.095px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-  }
-  
-  a:link {
-    text-decoration: none;
-    color: #24293c;
-  }
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #24293c;
+  letter-spacing: 0.005px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.footer-contact-title {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.0015px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #24293c;
+}
+.contact-title {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: snap-bold;
+}
+.code {
+  margin: 15px;
+}
+
+.icon {
+  height: 100%;
+  width: 100%;
+}
+.social {
+  display: flex;
+  gap: 1.5rem;
+  place-content: center;
+}
+/* .footer-social {
+  justify-content: right;
+} */
+.footer-social-content {
+  margin-bottom: 2rem;
+  letter-spacing: 0.095px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #24293c;
+}
