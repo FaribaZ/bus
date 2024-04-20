@@ -289,6 +289,9 @@ button {
   font-size: 18px;
   line-height: 27.9px;
   text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 .name-title {
   font-family: snap-extra-bold;
@@ -324,6 +327,7 @@ button {
   text-align: center;
   margin: 20px;
 }
+
 @media (max-width: 768px) {
   .name-detail {
     font-size: 12px;
@@ -374,10 +378,11 @@ button {
 .name {
   height: 330px;
   overflow-y: auto;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   background-color: #fe3030;
   z-index: 1;
+  align-items: start;
 }
 
 @media (min-width: 768px) {

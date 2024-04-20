@@ -10,13 +10,20 @@ let data = [
   { date: "۱۴۰۳/۰۲/۰۱", client: "فریبا زارع", number: "۲۷۹۵***۰۹۱۳" },
   { date: "۱۴۰۳/۰۲/۰۱", client: "فریبا زارع", number: "۲۷۹۵***۰۹۱۳" },
 ];
-
+///
+fetch("https://your-cdn.com/path/to/your/file.json")
+  .then((response) => response.json())
+  .then((json) => {
+    let data = json.data;
+    // ... rest of your code ...
+  });
+//
 let container = document.querySelector(".name");
 
 data.map((item, index) => {
   let row = document.createElement("div");
   row.className = "d-flex justify-content-around name-detail";
-  row.dataset.index = index; // Add index to each row
+  row.dataset.index = index;
 
   let dateDiv = document.createElement("div");
   dateDiv.textContent = item.date;
@@ -48,7 +55,6 @@ let observer = new IntersectionObserver(
         visibleRows = visibleRows.filter((row) => row !== entry.target);
       }
 
-      // Sort the visible rows by their index
       visibleRows.sort((a, b) => a.dataset.index - b.dataset.index);
 
       visibleRows.forEach((row, index) => {
