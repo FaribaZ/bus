@@ -289,9 +289,6 @@ button {
   font-size: 18px;
   line-height: 27.9px;
   text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 10;
 }
 .name-title {
   font-family: snap-extra-bold;
@@ -302,7 +299,6 @@ button {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 @media (max-width: 768px) {
   .name-title {
     font-size: 18px;
@@ -318,8 +314,13 @@ button {
   position: sticky;
   top: 0;
   background-color: #fe3030;
-  z-index: 100000;
+  z-index: 10000;
 }
+.name {
+  height: 330px;
+  overflow-y: auto;
+}
+
 .name-detail {
   font-family: snap regular;
   font-size: 17px;
@@ -327,7 +328,6 @@ button {
   text-align: center;
   margin: 20px;
 }
-
 @media (max-width: 768px) {
   .name-detail {
     font-size: 12px;
@@ -371,18 +371,9 @@ button {
   .first-card {
     flex-direction: column-reverse;
     position: relative;
-    height: 804px;
+    height: 804px; /* Updated height */
     margin-bottom: 20px;
   }
-}
-.name {
-  height: 330px;
-  overflow-y: auto;
-  /* position: sticky; */
-  top: 0;
-  background-color: #fe3030;
-  z-index: 1;
-  align-items: start;
 }
 
 @media (min-width: 768px) {
@@ -413,8 +404,8 @@ button {
 
 @media (max-width: 768px) {
   .center-button {
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
   }
   .btn-primary1 {
     width: 165px;
