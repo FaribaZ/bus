@@ -1,18 +1,27 @@
-fetch(
-  "https://cdnsnapptrip.com/images/market//Uploads/snapptrip-ads/images/Landing403/luckybus.json"
-)
-  .then((response) => response.json())
-  .then((json) => {
-    let data = json.data;
+let data = [
+  { date: "۱ ادریبهشت", client: "صبا فاضل دهکردی", number: "۸۰۹****۰۹۳۰" },
+  { date: "۲ ادریبهشت", client: "معصومه شهرجردی", number: "۶۰۸****۰۹۱۲" },
+  { date: "۳ ادریبهشت", client: " رویا شیری   ", number: "۶۱۱****۰۹۱۲" },
+  { date: "۳ ادریبهشت", client: " رویا شیری   ", number: "۶۱۱****۰۹۱۲" },
+  { date: "۳ ادریبهشت", client: " رویا شیری   ", number: "۶۱۱****۰۹۱۲" },
+  { date: "۳ ادریبهشت", client: " رویا شیری   ", number: "۶۱۱****۰۹۱۲" }
+];
+// fetch(
+//   "https://cdnsnapptrip.com/images/market//Uploads/snapptrip-ads/images/Landing403/luckybus.json"
+// )
+//   .then((response) => response.json())
+//   .then((json) => {
+//     let data = json.data;
     data.map((item, index) => {
       let container = document.querySelector(".name");
       let row = document.createElement("div");
-      row.className = "d-flex justify-content-around name-detail";
+      row.className = "d-flex justify-content-between name-detail";
       row.dataset.index = index;
 
       let dateDiv = document.createElement("div");
       dateDiv.textContent = item.date;
       dateDiv.className = "date";
+      
 
       let clientDiv = document.createElement("div");
       clientDiv.textContent = item.client;
@@ -57,8 +66,8 @@ fetch(
     document.querySelectorAll(".name-detail").forEach((row) => {
       observer.observe(row);
     });
-  })
-  .catch((error) => console.error("Error:", error));
+
+  // .catch((error) => console.error("Error:", error));
 
 window.onload = function () {
   var host = window.location.host;

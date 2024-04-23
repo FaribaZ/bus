@@ -286,7 +286,7 @@ button {
 }
 .name-header {
   font-family: snap-bold;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 27.9px;
   text-align: center;
 }
@@ -303,8 +303,9 @@ button {
   .name-title {
     font-size: 18px;
   }
-  .name-header {
-    font-size: 14px;
+  .name-header div{
+    font-size: 12px;
+    width: 70px;
   }
   .name-detail {
     font: 12px;
@@ -326,7 +327,9 @@ button {
   font-size: 17px;
   line-height: 27.9px;
   text-align: center;
-  margin: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
 }
 @media (max-width: 768px) {
   .name-detail {
