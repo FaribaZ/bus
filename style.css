@@ -65,7 +65,7 @@ header {
     text-align: center;
   }
   header {
-    height: 690px;
+    height: 630px;
     flex-shrink: 0;
     padding-top: 30px;
   }
