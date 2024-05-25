@@ -34,16 +34,16 @@ fetch(
           } else {
             visibleRows = visibleRows.filter((row) => row !== entry.target);
           }
-    
+
           visibleRows.sort((a, b) => a.dataset.index - b.dataset.index);
-    
+
           visibleRows.forEach((row, index) => {
             let opacity = 1 - index / 7;
             row.style.opacity = opacity > 0 ? opacity : 0.15;
           });
         });
       },
-      { threshold: [0] } 
+      { threshold: [0] }
     );
 
     document.querySelectorAll(".name-detail").forEach((row) => {
@@ -53,14 +53,16 @@ fetch(
   .catch((error) => console.error("Error:", error));
 
 window.onload = function () {
-    var host = window.location.host;
+  var host = window.location.host;
 
   var link = document.querySelector("#dynamic-link");
 
   if (host.includes("pwa.snapptrip.com")) {
-    link.href = "https://pwa.snapptrip.com/bus?utm_source=jek&utm_medium=landing&utm_campaign=lucky-bus&utm_term=april-2024";
+    link.href =
+      "https://pwa.snapptrip.com/bus?utm_source=jek&utm_medium=landing&utm_campaign=lucky-bus&utm_term=april-2024";
   } else {
-    link.href = "https://www.snapptrip.com/bus?utm_source=web&utm_medium=landing&utm_campaign=lucky-bus&utm_term=april-2024";
+    link.href =
+      "https://www.snapptrip.com/bus?utm_source=web&utm_medium=landing&utm_campaign=lucky-bus&utm_term=april-2024";
   }
 
   var gtmHead = document.getElementById("gtm-head");

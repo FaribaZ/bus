@@ -296,7 +296,6 @@ button {
   line-height: 49.6px;
   text-align: center;
   border-bottom: 4px solid #fff;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 @media (max-width: 768px) {
@@ -373,7 +372,7 @@ button {
   .first-card {
     flex-direction: column-reverse;
     position: relative;
-    height: 804px; /* Updated height */
+    height: 700px; /* Updated height */
     margin-bottom: 20px;
   }
 }
@@ -397,11 +396,9 @@ button {
   background-color: #fff;
   text-align: center;
   font-family: Snap-bold;
-  letter-spacing: -1.44px;
   margin-top: 20px;
   font-size: 31px;
   line-height: 52.7px;
-  letter-spacing: -0.06em;
 }
 
 @media (max-width: 768px) {
